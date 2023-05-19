@@ -1,0 +1,6 @@
+SELECT SUBSTR(last_name, 3,2)          
+FROM s_emp          
+WHERE id = 10;
+
+--Se toman 2 caracteres del apellido, comenzando con el caracter 3.
+
